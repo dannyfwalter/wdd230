@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+header, footer {
+    background-color: #A41623;
+}
+
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
