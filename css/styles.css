@@ -4,9 +4,36 @@ header, footer {
   background-color: #A41623;
   text-align: center;
 	color: white;
+	border-radius: 15px;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
 }
 
 body {
   color: black;
-   font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+	width: 50%;
+	margin: auto;
+}
+
+img {
+	width: 150px;
+	margin: 2em;
+	grid-column: 1;
+}
+
+h1 {
+	grid-column: 2/3;
+}
+
+h2 {
+	text-align: center;
+}
+
+main p {
+	text-align: center;
 }
