@@ -1,0 +1,30 @@
+@media screen and (min-width: 64em) {
+    header {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    header img {
+        flex-grow: 1;
+        padding: 1rem;
+    }
+
+    header div {
+        flex-grow: 2;
+    }
+
+    header nav {
+        flex-grow: 3;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}

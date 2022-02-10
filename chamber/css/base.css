@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header {
+    background-color: #A41623;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #37423D;
+}
+
+nav ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    margin: .2rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+header span {
+    background-color: #37423D;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin: .5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main div {
+    border: 1px solid;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+main div:nth-child(2) {
+    order: -3;
+}
+
+main div:nth-child(5), main div:nth-child(6) p:nth-child(3) {
+    display: none;
+}
+
+main div:nth-child(6) p {
+    border: 1px solid;
+    margin: 0;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #A41623;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
