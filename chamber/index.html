@@ -14,14 +14,15 @@
 <body>
 
   <header>
+	  <div>
 		<picture>
 		<img src="images/herndon-chamber-of-commerce-logo-mini.jpg" alt="logo">
 		</picture>
 
-		<div>
+		<section class="headings">
 			<h1>Herndon</h1>
 			<h2>Chamber of Commerce</h2>
-		</div>
+		</section>
 
 		<picture>
 			<img src="images/facebook.png" alt="Social Media">
@@ -33,14 +34,15 @@
 		
 
 		<nav>
-			<button><span>&#9776;</span></button>
-			<ul>
+			<button id="hamburgerBtn"><span>&#9776;</span></button>
+			<ul id="primaryNav">
 				<li><a href="#">Discover</a></li>
 				<li><a href="#">Directory</a></li>
 				<li><a href="#">Join</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
+	</div>
 
 		<span id="todaysDate"></span>
   </header>
@@ -91,6 +93,7 @@
 		<p>&copy; 2022 Herndon Chamber | Danny Walter | WDD 230 Project | Last Modification: <span id="whenModified"></span></p>
 	</footer>
 
+	<script src="js/script.js"></script>
 	<script src="js/today.js"></script>
 	<script src="js/modified.js"></script>
 

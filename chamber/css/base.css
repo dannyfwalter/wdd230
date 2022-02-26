@@ -4,16 +4,41 @@
 header {
     background-color: #A41623;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-h1 {
-    font-size: 2rem;
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+h1, h2 {
     font-family: 'Poppins', sans-serif;
 }
 
-h2 {
-    font-size: .9rem;
-    font-family: 'Poppins', sans-serif;
+header div section {
+    display: flex;
+    flex-direction: column;
+}
+
+header div section h1 {
+    margin: 0;
+}
+
+header div section h2 {
+    font-size: .75em;
+    margin: 0;
+}
+
+header div picture img {
+    width: 50px;
+}
+
+#todaysDate {
+    display: block;
 }
 
 p {
@@ -32,10 +57,11 @@ nav ul {
 }
 
 nav button {
-    margin: .2rem;
+    margin: 0;
+    padding: 0;
     background: transparent;
     border: none;
-    font-size: 2rem;
+    font-size: 1em;
     color: #fff;
 }
 
@@ -92,4 +118,12 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
 }
