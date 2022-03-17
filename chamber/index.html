@@ -60,6 +60,13 @@
 
 		<div>
 			<h2>Welcome to Herndon</h2>
+			
+			<figure class="myphoto">
+				<img src="images/wdd230-org.jpg" alt="Hero Image" sizes="50vw"
+				srcset="images/hero-image-small.jpg 200w,
+						images/hero-image-medium.jpg 500w,
+						images/hero-image-large.jpg 800w">
+			</figure>
 
 			<button type="button">Join the Chamber</button>
 		</div>
@@ -67,9 +74,9 @@
 		<div>
 			<h2>Weather</h2>
 			<img src="https://via.placeholder.com/150" alt="placeholder">
-			<p>Sunny</p>
-			<p>Wind Speed:</p>
-			<p>Wind Chill: </p>
+			<p>Currently: <span id="temp">65</span> F</p>
+			<p>Wind Speed: <span id="wind">5</span>mph</p>
+			<p>Wind Chill: <span id="chill"></span></p>
 		</div>
 
 		<div>
@@ -130,6 +137,7 @@
 	<script src="js/meetngreet.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/today.js"></script>
+	<script src="js/windchill.js"></script>
 	<script src="js/modified.js"></script>
 
 </body>
