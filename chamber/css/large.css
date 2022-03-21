@@ -72,4 +72,18 @@
     div figure img {
         width: 100%;
     }
+
+    .discover-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        grid-gap: 1em;
+    }
+
+    .discover-image {
+        grid-column: 2/3;
+    }
+
+    .discover-description {
+        grid-column: 3/4;
+    }
 }
