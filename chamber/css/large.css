@@ -74,18 +74,14 @@
     }
 
     .discover-grid {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         align-items: center;
         grid-gap: 1em;
-        margin-top: 1em;
     }
 
     .discover-image {
         grid-column: 2/3;
-    }
-
-    .discover-image img:hover {
-        box-shadow: 0 0 50px #333;
     }
 
     .discover-description {

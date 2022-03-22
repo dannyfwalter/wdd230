@@ -132,6 +132,13 @@ main div:nth-child(7) {
     display: none;
 }
 
+.discover-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
 footer {
     background-color: #A41623;
     color: #fff;

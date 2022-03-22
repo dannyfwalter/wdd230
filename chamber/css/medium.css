@@ -27,6 +27,10 @@
     main div:nth-child(3) {
         order: 3;
     }
+    
+    .discover-image img:hover {
+        box-shadow: 0 0 50px #333;
+    }
 
     footer {
         display: block;
