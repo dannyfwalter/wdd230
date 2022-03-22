@@ -77,13 +77,24 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         align-items: center;
         grid-gap: 1em;
+        margin-top: 1em;
     }
 
     .discover-image {
         grid-column: 2/3;
     }
 
+    .discover-image img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
     .discover-description {
         grid-column: 3/4;
+    }
+
+    .discover-grid div {
+        grid-column: 2/4;
+        grid-row: 6/7;
+        width: 100%;
     }
 }
