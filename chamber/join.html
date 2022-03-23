@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is the site for the Town of Herndon Chamber of Commerce.">
+  <title>Herndon Chamber of Commerce</title>
+	<link rel="shortcut icon" href="images/chamber_icon.ico">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+  <header>
+	  <div>
+			<picture>
+			<img src="images/herndon-chamber-of-commerce-logo-mini.jpg" alt="logo">
+		</picture>
+
+		<section class="headings">
+			<h1>Herndon</h1>
+			<h2>Chamber of Commerce</h2>
+		</section>
+
+		<picture>
+			<a href="https://www.facebook.com">
+				<img src="images/facebook.png" alt="Social Media">
+			</a>
+		</picture>
+
+		<picture>
+			<a href="https://www.instagram.com">
+				<img src="images/instagram.png" alt="Social Media">
+			</a>
+		</picture>
+		
+
+		<nav>
+			<button id="hamburgerBtn"><span>&#9776;</span></button>
+			<ul id="primaryNav">
+				<li><a href="../lesson7/discover.html">Discover</a></li>
+				<li><a href="#">Directory</a></li>
+				<li><a href="#">Join</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+		<span id="todaysDate"></span>
+  </header>
+
+  <main class="join-grid">
+		<form method="get" action="thankyou.html">
+			<fieldset>
+				<legend>Applicant Information</legend>
+				<label>First Name* <input type="text" name="fname" required></label>
+				<label>Last Name* <input type="text" name="lname" required></label>
+				<label>Title <input type="text" name="title" pattern="[A-Za-z- ]" minlength="7"></label>
+				<label>Email* <input type="text" name="email" placeholder="someone@email.com" required></label>
+				<label>Cell Phone Number* <input type="tel" name="cellphone" required></label>
+				<label>Business Name <input type="text" name="businessname" required></label>
+		</fieldset>
+
+		<fieldset>
+			<legend>Membership Level</legend>
+			<label><input type="radio" name="membership" value="np">Non-Profit Membership (FREE)</label>
+			<label><input type="radio" name="membership" value="bronze">Bronze Membership ($25/month)</label>
+			<label><input type="radio" name="membership" value="silver">Silver Membership ($55/month)</label>
+			<label><input type="radio" name="membership" value="gold">Gold Membership ($75/month)</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>Business Description</legend>
+			<label><textarea name="businessdescription" cols="30" rows="10"></textarea></label>
+		</fieldset>
+
+		<input type="hidden" name="date" id="formupload">
+
+		<input type="submit" value="Join Now!" class="submitBtn">
+		</form>
+	</main>
+
+  <footer>
+		<div>
+			<img src="images/herndon-chamber-of-commerce-logo-mini.jpg" alt="logo">
+
+			<h2>Town of Herndon Chamber of Commerce</h2>
+
+			<p>Address of the Chamber of Commerce</p>
+		</div>
+
+		<div>
+			<p>email@email.com</p>
+			<p>(555) 555-5555</p>
+			<p>Location Map</p>
+		</div>
+
+		<p>&copy; 2022 Herndon Chamber | Danny Walter | WDD 230 Project | Last Modification: <span id="whenModified"></span></p>
+	</footer>
+	<script src="js/meetngreet.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/today.js"></script>
+	<script src="js/windchill.js"></script>
+	<script src="js/modified.js"></script>
+
+</body>
+</html>
