@@ -155,3 +155,68 @@ nav ul {
 nav ul.open {
     display: block;
 }
+
+.join-grid {
+    padding: 0 2%;
+    min-height: 20rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #37423D;
+    border-radius: 15px;
+    padding: .5rem 2%;
+    width: 96%;
+}
+
+form legend {
+    color: #37423D;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+form label {
+    display: block;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    max-width: 30rem;
+}
+
+form input.submitBtn {
+    border: 1px solid #37423D;
+    background-color: #9EB7E5;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: .75rem 2.5rem;
+    margin: 2rem 2rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label input {
+    display: block;
+    border-radius: 5px;
+    padding: .75rem;
+    max-width: 20rem;
+    width: 80%;
+}
+
+form .field-3 div:nth-child(7) {
+    display: block;
+}
+
+form .field-3 input {
+    display: inline;
+    margin: 0;
+    width: 10%;
+}
+
+form label input:required {
+    border-left: red solid 6px;
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
