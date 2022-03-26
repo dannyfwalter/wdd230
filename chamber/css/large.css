@@ -123,4 +123,9 @@
         column-span: 2;
         justify-content: center;
     }
+
+    .thankyou-page {
+        display: block;
+        text-align: center;
+    }
 }
