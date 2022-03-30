@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Bree Serif', serif;
+    color: #2466e1;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    background-color: #aec2e6;
+    border: solid 1px #2466e1;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1em;
+    background-color: #888888;
+    padding: 1em;
+    box-shadow: 5px 5px 10px#444444;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    max-width: 80%;
+    box-shadow:  5px 5px 10px #444444;
+}
+
