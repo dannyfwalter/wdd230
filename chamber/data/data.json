@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name": "OHA Heating & Air",
+            "address": "474 Central Rd, Herndon, VA 20170",
+            "phone": "(540) 734-4213",
+            "email": "heatingnair@oha.com",
+            "logo": ""
+        },
+        {
+            "name": "Marines Plumbing",
+            "address": "12084 Cadet Ct, Herndon, VA 20170",
+            "phone": "(703) 331-2100",
+            "email": "service@marinesplumbing.com",
+            "logo": ""
+        },
+        {
+            "name": "J & J Landscape Services",
+            "address": "8415 Terminal Rd, Herdon, VA 20170",
+            "phone": "(571) 577-2377",
+            "email": "jnjlandscape@gmail.com",
+            "logo": ""
+        },
+        {
+            "name": "AutoScandia",
+            "address": "134 Spring St, Herndon, VA 20170",
+            "phone": "(703) 471-4494",
+            "email": "service@autoscandia.com",
+            "logo": ""
+        },
+        {
+            "name": "Service King Collision",
+            "address": "13800 Redskin Dr, Herndon, VA 20170",
+            "phone": "(703) 689-4045",
+            "email": "service@serviceking.com",
+            "logo": ""
+        },
+        {
+            "name": "Perfectly Pressed Cleaners",
+            "address": "1000 Colonial Farm Rd, Herndon, VA 20170",
+            "phone": "(240) 644-7711",
+            "email": "clean@perfectlypressed.com",
+            "logo": ""
+        },
+        {
+            "name": "Recon Pest Control",
+            "address": "291 Sunset Park Dr, Herndon, VA 20170",
+            "phone": "(703) 435-5677",
+            "email": "pest@recon.com",
+            "logo": ""
+        },
+        {
+            "name": "Mahalo Media Solutions",
+            "address": "20835 Sandstone Square, Herndon, VA 20170",
+            "phone": "(571) 762-4933",
+            "email": "mike@mahalomediasolutions.com",
+            "logo": ""
+        },
+        {
+            "name": "Ocean 5 Strategies",
+            "address": "478 Elden St Ste 135, Herndon, VA 20170",
+            "phone": "(703) 988-9896",
+            "email": "strategies@ocean5.com",
+            "logo": ""
+        },
+        {
+            "name": "Patriot Limo",
+            "address": "974 Branch Dr, Herndon, VA 20170",
+            "phone": "(571) 283-2539",
+            "email": "cabs@patriotlimo.com",
+            "logo": ""
+        },
+        {
+            "name": "Silver Spoon Caterers",
+            "address": "348 Victory Dr, Herndon, VA 20170",
+            "phone": "(703) 935-4531",
+            "email": "catering@silverspoon.com",
+            "logo": ""
+        },
+        {
+            "name": "Clocktower Animal Hospital",
+            "address": "2451 Centreville Rd Ste I12, Herndon, VA 20171",
+            "phone": "(703) 713-1200",
+            "email": "pets@ctanimalhospital.com",
+            "logo": ""
+        }
+    ]
+}
