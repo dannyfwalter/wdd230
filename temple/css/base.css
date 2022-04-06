@@ -26,6 +26,11 @@ header h1 {
     grid-column: 2/5;
 }
 
+main .page-header {
+    font-size: 3rem;
+    text-align: center;
+}
+
 nav {
     background-color: #fed0bb;
     border: 1px solid;
@@ -203,6 +208,62 @@ form label input:required {
 
 form label input:required:valid {
     border-left: green solid 6px;
+}
+
+#services-page {
+    display: block;
+}
+
+#services-page #services-grid {
+    display: grid;
+}
+
+#services-page #services-grid nav {
+    grid-row: 1/2;
+}
+
+#services-page #services-grid .item-1 {
+    grid-row: 2/3;
+}
+
+#services-page #services-grid .image-1 {
+    grid-row: 3/4;
+}
+
+#services-page #services-grid .item-2 {
+    grid-row: 4/5;
+}
+
+#services-page #services-grid .image-2 {
+    grid-row: 5/6;
+}
+
+#services-page #services-grid img {
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
+}
+
+#services-page h2 {
+    text-align: center;
+}
+
+#services-page nav {
+    border: none;
+}
+
+#services-page #secondaryNav {
+    display: block;
+    text-align: center;
+}
+
+#services-page #secondaryNav li a {
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+#services-page div div {
+    border: none;
 }
 
 /* FOOTER */
