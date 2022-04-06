@@ -1,0 +1,48 @@
+{
+    "temples": [
+        {
+            "name":"Lima, Peru",
+            "address":"Av. Javier Prado Este 6420, Urb. Santa Patricia, La Molina, Lima, Peru",
+            "telephone":"(+51) 1-612-7200",
+            "email":"templelamolina@churchofjesuschrist.org",
+            "services":"Clothing rental available and distribution center nearby",
+            "history":"The Lima Peru Temple was the third temple built in South America and the first built in Peru. Over 24,500 visitors toured the Lima Peru Temple during its open house period, which was extended three days due to the high level of public interest. The Lima Peru Temple was dedicated by President Gordon B. Hinckley, under the direction of President Ezra Taft Benson, over three days in eleven dedicatory sessions.",
+            "ordinance":"Every half hour",
+            "session":"Every hour",
+            "image":""
+        },
+        {
+            "name":"Quetzaltenango, Guatemala",
+            "address":"9a Calle 4-03, Zona 9, Frente a Residenciales Los Cerezos 1, 09000 Quetzaltenango, Guatemala",
+            "telephone":"(+502) 7728-1603",
+            "email":"templequetzal@churchofjesuschrist.org",
+            "services":"Cafeteria food served and distribution center nearby",
+            "history":"The Quetzaltenango Guatemala Temple was the second temple built in Guatemala. The Quetzaltenango Guatemala Temple was announced by President Gordon B. Hinckley during his remarks at the groundbreaking ceremony for Oquirrh Mountain Utah Temple.",
+            "ordinance":"Every half hour",
+            "session":"Every hour",
+            "image":""
+        },
+        {
+            "name":"Newport Beach, California",
+            "address":"2300 Bonita Canyon Drive, Newport Beach, California 92660",
+            "telephone":"(+1) 949-644-1820",
+            "email":"templenewportbeach@churchofjesuschrist.org",
+            "services":"Clothing rental available",
+            "history":"The Newport Beach California Temple was the sixth temple built in California, the fourth built in Southern California, and the second built in the Los Angeles Metropolitan Area. The Newport Beach Planning Commission gave its approval for the Newport Beach California Temple on October 3, 2002, despite protests from the numerous residents in attendance. The Church worked closely with residents in a spirit of compromise, making changes in response to their concerns that included turning off flood lighting by 11:00 p.m., changing the color of the building from off-white to an earth-tone shade of seashell, and reducing the height of the spire from 124 feet to 100 feet. Elder Duane B. Gerrard, first counselor in the North America West Area presidency, presided and dedicated the temple site",
+            "ordinance":"Every hour",
+            "session":"Every hour and a half starting at 7 AM",
+            "image":""
+        },
+        {
+            "name":"Washington D.C.",
+            "address":"9900 Stoneybrook Drive, Kensington, Maryland 20895",
+            "telephone":"(+1) 301-588-0650",
+            "email":"templedc@churchofjesuschrist.org",
+            "services":"Clothing rental available, cafeteria food served, and distribution center nearby",
+            "history":"The Washington D.C. Temple was the first temple built in the Eastern United States (and in Maryland). Soaring to a height of 288 feet, the Washington D.C. Temple is the tallest temple in the Church. The Washington D.C. Temple is one of only four temples with six instruction rooms and the only one outside of Utah. The Washington D.C. Temple is one of only five temples featuring an angel Moroni statue holding the gold plates.",
+            "ordinance":"CURRENTLY CLOSED",
+            "session":"CURRENTLY CLOSED",
+            "image":""
+        }
+    ]
+}
