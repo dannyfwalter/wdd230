@@ -20,6 +20,7 @@ header {
 
 header img {
     margin: 1em;
+    border-radius: 15px;
 }
 
 header h1 {
@@ -156,7 +157,6 @@ main div {
 
 #reservations-page {
     display: block;
-    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -238,7 +238,7 @@ form label input:required:valid {
     grid-row: 5/6;
 }
 
-#services-page #services-grid img {
+#services-page #services-grid img, #reception-page div img {
     display: block;
     margin: auto;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
@@ -264,6 +264,26 @@ form label input:required:valid {
 
 #services-page div div {
     border: none;
+}
+
+#reception-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-header {
+    background-color: #ceeddb;
+    padding: 1em 2em;
+}
+
+#reception-page div {
+    border: none;
+    width: 100%;
+}
+
+#reception-page div h2 {
+    text-align: center;
 }
 
 /* FOOTER */
