@@ -128,6 +128,83 @@ main div {
     margin: 0 auto;
 }
 
+#temple-page {
+    display: block;
+}
+
+.cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.cards section {
+    background-color: #fed0bb;
+}
+
+.cards section img {
+    max-width: 90%;
+    margin: 1em;
+}
+
+#reservations-page {
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+#reservations-page div {
+    border: none;
+}
+
+#reservations-page fieldset {
+    border-radius: 1em;
+}
+
+#reservations-page fieldset legend {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+#reservations-page label {
+    display: block;
+    margin: 1em;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+#reservations-page fieldset:nth-child(3) div {
+    font-size: 1.3rem;
+}
+
+#reservations-page fieldset:nth-child(3) label input{
+    width: 2em;
+}
+
+#reservations-page label input {
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#reservations-page form input.submitBtn {
+    background-color: #fed0bb;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: .75rem 2.5rem;
+    margin: 2rem;
+}
+
+form label input:required {
+    border-left: red solid 6px;
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+
 /* FOOTER */
 
 footer {

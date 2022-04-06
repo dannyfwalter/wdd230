@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The purpose of this site is to inform current and future patrons of the purpose and services available of the Temple Inn and Suites">
+  <title>Temple Inn & Suites Home</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+  <header>
+		<img src="https://via.placeholder.com/64" alt="Temple Inn & Suites logo">
+
+		<h1>Temple Inn & Suites</h1>
+
+		<nav>
+			<button id="hamburgerBtn"><span>&#9776;</span></button>
+			<ul id="primaryNav">
+				<li><a href="temple.html">Temples</a></li>
+				<li><a href="reservations.html">Reservations</a></li>
+				<li><a href="#">Services</a></li>
+			</ul>
+		</nav>
+	</header>
+
+  <main id="reservations-page">
+		<form method="get" action="thankyou.html">
+			<fieldset>
+				<legend>Guest Information</legend>
+				<label>First Name* <input type="text" name="fname" required></label>
+				<label>Last Name* <input type="text" name="lname" required></label>
+				<label>Cell Phone Number* <input type="tel" name="cellphone" required></label>
+				<label>Email Address* <input type="text" name="email" placeholder="someone@email.com" required></label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Destination & Dates</legend>
+				<label>Destination
+					<select name="destination">
+						<option value="">---Please Select---</option>
+						<option value="accra">Accra, Ghana</option>
+						<option value="caracas">Caracas, Venezuela</option>
+						<option value="dallas">Dallas, TX</option>
+						<option value="frankfurt">Frankfurt, Germany</option>
+						<option value="helsinki">Helsinki, Finland</option>
+						<option value="hongkong">Hong Kong</option>
+						<option value="johannes">Johannesburg, South Africa</option>
+						<option value="kiev">Kiev, Ukraine</option>
+						<option value="laie">Laie, Hawaii</option>
+						<option value="lima">Lima, Peru</option>
+						<option value="logan">Logan, UT</option>
+						<option value="madrid">Madrid, Spain</option>
+						<option value="manilla">Manila, Phillipines</option>
+						<option value="monterrey">Monterrey, Mexico</option>
+						<option value="newport">Newport Beach, CA</option>
+						<option value="quetzal">Quetzaltenango, Guatemala</option>
+						<option value="slc">Salt Lake City, UT</option>
+						<option value="san-diego">San Diego, CA</option>
+						<option value="taipei">Taipei, Taiwan</option>
+						<option value="teguci">Tegucigalpa, Honduras</option>
+						<option value="wdc">Washington D.C.</option>
+					</select>
+				</label>
+
+				<label>Check-In: <input type="date" name="trip-start" id="start"></label>
+				<label>Check-Out: <input type="date" name="trip-end" id="end"></label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Room(s)</legend>
+
+				<div>Room 1</div>
+				<label><input type="radio" name="number" value="one">One Guest</label>
+				<label><input type="radio" name="number" value="two">Two Guests</label>
+				<label><input type="radio" name="number" value="three">Three Guests</label>
+				<label><input type="radio" name="number" value="four">Four Guests</label>
+
+				<button>Add Room</button>
+			</fieldset>
+
+			<fieldset>
+				<legend>Comments & Requests</legend>
+				<label><textarea name="comments-requests" cols="50" rows="10"></textarea></label>
+			</fieldset>
+
+			<input type="submit" value="Book Now!" class="submitBtn">
+		</form>
+  </main>
+
+  <footer>
+		<div id="maps">
+			<img src="https://via.placeholder.com/250" alt="Google map link will go here">
+
+		</div>
+
+		<p>&copy; 2021 | Daniel Walter | Utah</p>
+
+		<div id="social">
+			<img src="../chamber/images/instagram.png" alt="Instagram">
+			<img src="../chamber/images/facebook.png" alt="Instagram">
+		</div>
+	</footer>
+	<script src="js/burger-btn.js"></script>
+</body>
+</html>
