@@ -9,7 +9,7 @@
             "history":"The Lima Peru Temple was the third temple built in South America and the first built in Peru. Over 24,500 visitors toured the Lima Peru Temple during its open house period, which was extended three days due to the high level of public interest. The Lima Peru Temple was dedicated by President Gordon B. Hinckley, under the direction of President Ezra Taft Benson, over three days in eleven dedicatory sessions.",
             "ordinance":"Every half hour",
             "session":"Every hour",
-            "image":""
+            "image":"https://dannyfwalter.github.io/wdd230/temple/images/data-lima-peru-300.jpg"
         },
         {
             "name":"Quetzaltenango, Guatemala",
@@ -20,7 +20,7 @@
             "history":"The Quetzaltenango Guatemala Temple was the second temple built in Guatemala. The Quetzaltenango Guatemala Temple was announced by President Gordon B. Hinckley during his remarks at the groundbreaking ceremony for Oquirrh Mountain Utah Temple.",
             "ordinance":"Every half hour",
             "session":"Every hour",
-            "image":""
+            "image":"https://dannyfwalter.github.io/wdd230/temple/images/data-quetzaltenango-300.jpg"
         },
         {
             "name":"Newport Beach, California",
@@ -31,7 +31,7 @@
             "history":"The Newport Beach California Temple was the sixth temple built in California, the fourth built in Southern California, and the second built in the Los Angeles Metropolitan Area. The Newport Beach Planning Commission gave its approval for the Newport Beach California Temple on October 3, 2002, despite protests from the numerous residents in attendance. The Church worked closely with residents in a spirit of compromise, making changes in response to their concerns that included turning off flood lighting by 11:00 p.m., changing the color of the building from off-white to an earth-tone shade of seashell, and reducing the height of the spire from 124 feet to 100 feet. Elder Duane B. Gerrard, first counselor in the North America West Area presidency, presided and dedicated the temple site",
             "ordinance":"Every hour",
             "session":"Every hour and a half starting at 7 AM",
-            "image":""
+            "image":"https://dannyfwalter.github.io/wdd230/temple/images/data-newport-beach-300.jpg"
         },
         {
             "name":"Washington D.C.",
@@ -42,7 +42,7 @@
             "history":"The Washington D.C. Temple was the first temple built in the Eastern United States (and in Maryland). Soaring to a height of 288 feet, the Washington D.C. Temple is the tallest temple in the Church. The Washington D.C. Temple is one of only four temples with six instruction rooms and the only one outside of Utah. The Washington D.C. Temple is one of only five temples featuring an angel Moroni statue holding the gold plates.",
             "ordinance":"CURRENTLY CLOSED",
             "session":"CURRENTLY CLOSED",
-            "image":""
+            "image":"https://dannyfwalter.github.io/wdd230/temple/images/data-washington-dc-300.jpg"
         }
     ]
 }
