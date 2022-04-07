@@ -375,6 +375,9 @@ form label input:required:valid {
     text-align: center;
 }
 
+#thankyou-page {
+    display: block;
+}
 /* FOOTER */
 
 footer {
