@@ -79,6 +79,17 @@
         grid-row: 3/4;
     }
 
+    #temple-info #openhouse {
+        font-weight: bold;
+        display: block;
+        background-color: #ceeddb;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        font-size: 2em;
+        padding: 1.5em;
+    }
+
     #services-page #services-grid nav {
         margin: 0;
     }
